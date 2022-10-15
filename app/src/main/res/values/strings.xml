@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">charity_booking</string>
+    <string-array name="User_Types">
+        <item>User</item>
+        <item>Charity</item>
+    </string-array>
+    <string-array name="Gender_Types">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="Time_Slots">
+        <item>8:00</item>
+        <item>9:00</item>
+        <item>10:00</item>
+        <item>11:00</item>
+        <item>12:00</item>
+        <item>13:00</item>
+        <item>14:00</item>
+        <item>15:00</item>
+        <item>16:00</item>
+        <item>17:00</item>
+    </string-array>
+</resources>

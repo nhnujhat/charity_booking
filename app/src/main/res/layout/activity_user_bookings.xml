@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserBookings"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/userhistorybtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Booking History"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"
+        android:layout_marginTop="20dp"
+        android:padding="5sp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/bookingRV"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            android:layout_below="@+id/userhistorybtn"/>
+
+</LinearLayout>

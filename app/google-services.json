@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "816629031196",
+    "project_id": "charity-booking-96ea6",
+    "storage_bucket": "charity-booking-96ea6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:816629031196:android:4cd3b82c8891c284a61ad9",
+        "android_client_info": {
+          "package_name": "com.example.charity_booking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "816629031196-4c2fa8ilr5npneihbqk61kekm1jiiut3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQT6s4oAEt0uorZ6Q0Y_ud4kRqONZX4gw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "816629031196-4c2fa8ilr5npneihbqk61kekm1jiiut3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
